@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/stv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stv">
+
+        <TextView
+            android:id="@+id/tvSeeting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Notification"
+            android:textColor="#00B764" />
+
+        <TextView
+            android:id="@+id/tvSeeting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSeeting1"
+            android:text="New Post Alert" />
+
+        <TextView
+            android:id="@+id/tvSeeting3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSeeting2"
+            android:text="Notify you when new Notification comes" />
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvSeeting3"
+           android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/stv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSeeting3"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:id="@+id/rBtn2"
+            android:layout_below="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stv1"
+            android:layout_alignParentEnd="true" />
+
+
+<!--        -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/stv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv1"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:id="@+id/rBtn3"
+            android:layout_below="@+id/rBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stv2"
+            android:layout_alignParentEnd="true" />
+
+<!--        -->
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/stv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv2"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:id="@+id/rBtn4"
+            android:layout_below="@+id/rBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stv3"
+            android:layout_alignParentEnd="true" />
+<!---->
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/stv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv3"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:layout_below="@+id/rBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stv4"
+            android:layout_alignParentEnd="true" />
+
+<!--        -->
+        <TextView
+            android:id="@+id/sdisplayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Story Display Time"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/stv4"
+            />
+        <TextView
+            android:id="@+id/smallSdisplayTIme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sdisplayTime"
+            android:text="Select a time for status preview"
+            />
+
+        <TextView
+
+            android:id="@+id/stv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smallSdisplayTIme"
+            android:layout_marginTop="15dp"
+            android:text="3 Hour" />
+
+        <RadioButton
+            android:id="@+id/rbtn6"
+            android:layout_below="@+id/sdisplayTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/smallSdisplayTIme"
+            android:layout_alignParentEnd="true" />
+<!--        -->
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/stv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv5"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:id="@+id/smallSdisplayTIme1"
+            android:layout_below="@+id/rbtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/smallSdisplayTIme"
+            android:layout_alignParentEnd="true" />
+
+<!--        -->
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/stv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv6"
+            android:text="3 Hour"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smallSdisplayTIme1"
+            android:layout_alignEnd="@+id/stv7"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stv7"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_line_3" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelativeLayout1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/chat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat Recovery Seting"
+            android:textAllCaps="false"
+            android:textColor="#00B764"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat1"
+            android:text="Chat recovery service"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat2"
+            android:text="Enable to retrieve delete message" />
+
+        <RadioButton
+            android:id="@+id/rdbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/chat2"
+            android:layout_alignParentEnd="true" />
+        <!--        -->
+
+        <TextView
+            android:id="@+id/chat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat2"
+            android:layout_marginTop="20dp"
+            android:text="Chat recovery service"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat3"
+            android:text="Enable to retrieve delete message" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rdbtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_line_3" />
+
+    </RelativeLayout>
+
+
+<!---->
+
+
+    <RelativeLayout
+       android:layout_below="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attachmet recovery seting"
+            android:textColor="#27C984"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/chat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat7"
+            android:text="Chat recovery service"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat8"
+            android:text="Enable to retrieve delete message" />
+
+        <RadioButton
+            android:id="@+id/rdbt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/chat8"
+            android:layout_alignParentEnd="true" />
+        <!--        -->
+
+        <TextView
+            android:id="@+id/chat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat8"
+            android:layout_marginTop="20dp"
+            android:text="Chat recovery service"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat9"
+            android:text="Enable to retrieve delete message" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rdbt1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_line_3" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

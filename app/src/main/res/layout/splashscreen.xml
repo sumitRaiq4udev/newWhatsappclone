@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_splash_screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgSplash1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="283dp"
+            android:background="@drawable/ic_icon" />
+
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btnSplash"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/imgSplash1"
+           android:layout_centerHorizontal="true"
+           android:text="Start"
+           android:textAllCaps="false"
+           android:layout_marginTop="70dp"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/btnSplash"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSplash"
+            android:layout_alignLeft="@+id/checkBox"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:text="I agree to privacy policy and term and condition" />
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
